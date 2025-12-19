@@ -1,4 +1,5 @@
 import 'package:fitness_tracker/screens/splash_screen.dart';
+import 'package:fitness_tracker/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 class MainApp extends StatelessWidget {
@@ -9,12 +10,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'SmartNews Nepal',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color.fromARGB(255, 46, 25, 239),
-        ),
-        useMaterial3: true,
-      ),
+      theme: AppTheme.lightTheme,
       home: SplashScreen(),
     );
   }

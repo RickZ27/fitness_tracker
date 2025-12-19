@@ -22,7 +22,10 @@ flutter:
     - assets/logo.png
     - assets/on1.png
     - assets/Signin.png
+    - assets/btn_img1.png
+    - assets/btn_img2.png
     - assets/fonts/
+
   fonts:
     - family: OpenSans-Bold
       fonts: 
